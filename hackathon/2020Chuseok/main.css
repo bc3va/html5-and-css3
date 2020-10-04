@@ -1,0 +1,111 @@
+body {
+    font-family: 'Apple SD Gothic Neo', sans-serif;
+    line-height: 150%;
+}
+
+.containor {
+    width: 800px;
+    text-align: center;
+    font-size: small;
+    margin: 80px auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+
+i {
+    color:grey;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.info-box {
+    margin: 30px 0;
+}
+
+.info-box p {
+    margin-bottom: 16px;
+}
+
+.question-box li {
+    display: inline-block;
+    list-style-type: none;
+    width: 150px;
+    margin: 0 10px;
+    padding: 10px 0;
+    border: lightgrey solid 1px;
+    border-radius: 4px;
+}
+
+.question-box li:hover:first-child {
+    border: blue solid 1px;
+    color: blue;
+}
+
+.question-box .didnt {
+    background-color: lightgrey;
+    color: grey;
+}
+
+
+
+
+
+
+/* question page css */
+
+.containor > .title-box > ul > li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.containor > .title-box > ul > li > a:hover {
+    color: blue;
+}
+
+.containor .question-box {
+    margin: 40px 0;
+}
+
+.containor .question-box p {
+    margin-top: 10px;
+}
+
+.containor .question-box b{
+    font-weight: 800;
+}
+
+.answers-box li {
+    display: inline-block;
+    list-style-type: none;
+    width: 100px;
+    margin: 0 10px;
+    padding: 10px 0;
+    border: lightgrey solid 1px;
+    border-radius: 4px;
+}
+
+.answers-box li:hover {
+    color: blue;
+    border: blue solid 1px;
+}
+
+.answers-box2 li {
+    display: inline-block;
+    list-style-type: none;
+    width: 130px;
+    margin: 0 10px;
+    padding: 10px 0;
+    border: lightgrey solid 1px;
+    border-radius: 4px;
+}
+
+.answers-box2 li:hover {
+    color: blue;
+    border: blue solid 1px;
+}
